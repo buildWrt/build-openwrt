@@ -5,7 +5,7 @@ inputs:
   mode:
     description: "Select script."
     required: false
-    default: "ophub"
+    default: "xiaoli"
   openwrt_path:
     description: "Select armvirt64 file path."
     required: false
@@ -33,7 +33,7 @@ inputs:
   openwrt_size:
     description: "Set the rootfs size(Unit: MiB)."
     required: false
-    default: "1024"
+    default: "512"
   builder_name:
     description: "Set OpenWrt builder signature."
     required: false
