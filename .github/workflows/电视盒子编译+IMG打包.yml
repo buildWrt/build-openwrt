@@ -175,11 +175,11 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "angel"
+        default: "xiaoli"
         type: choice
         options:
           - angel
-          - yourname
+          - xiaoli
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
